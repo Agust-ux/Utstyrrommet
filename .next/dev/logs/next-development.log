@@ -1,64 +1,80 @@
-[00:00:00.929] Server  LOG     ✓ Ready in 682ms
-[00:00:03.340] Server  ERROR   ⨯ ./app/page.tsx:5:1
-Module not found: Can't resolve 'cors'
-  3 | /* import TiltedCard from './components/TiltedCard'; */
-  4 | import express, { Request, Response } from 'express';
-> 5 | import cors from 'cors';
-    | ^^^^^^^^^^^^^^^^^^^^^^^^
-  6 |
-  7 | // --- TypeScript-type for utstyr ---
-  8 | type Utstyr = {
+[00:00:00.954] Server  LOG     ✓ Ready in 691ms
+[00:00:01.713] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:04.742] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:28.001] Server  LOG     ✓ Compiled in 387ms
+[00:00:43.141] Server  LOG     ✓ Compiled in 71ms
+[00:00:46.599] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:06:48.763] Server  LOG     ✓ Compiled in 99ms
+[00:06:52.350] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:13:08.543] Server  LOG     ✓ Compiled in 97ms
+[00:15:41.592] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:28:15.218] Server  LOG     ✓ Compiled in 111ms
+[00:28:36.120] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:32:01.685] Server  LOG     ✓ Compiled in 180ms
+[00:32:02.287] Browser ERROR   ./app/components/TiltedCard.tsx:44:5
+Parsing ecmascript source code failed
+  42 |   return (
+  43 |   <div
+> 44 |     <div
+     |     ^
+  45 |       ref={ref}
+  46 |       onMouseMove={handleMouseMove}
+  47 |       onMouseEnter={() => scale.set(scaleOnHover)}
 
-
+Expression expected
 
 Import traces:
   Client Component Browser:
+    ./app/components/TiltedCard.tsx [Client Component Browser]
     ./app/page.tsx [Client Component Browser]
     ./app/page.tsx [Server Component]
 
   Client Component SSR:
+    ./app/components/TiltedCard.tsx [Client Component SSR]
     ./app/page.tsx [Client Component SSR]
     ./app/page.tsx [Server Component]
+[00:32:02.290] Browser ERROR   ./app/components/TiltedCard.tsx:44:5
+Parsing ecmascript source code failed
+  42 |   return (
+  43 |   <div
+> 44 |     <div
+     |     ^
+  45 |       ref={ref}
+  46 |       onMouseMove={handleMouseMove}
+  47 |       onMouseEnter={() => scale.set(scaleOnHover)}
 
-https://nextjs.org/docs/messages/module-not-found
+Expression expected
 
+Import traces:
+  Client Component Browser:
+    ./app/components/TiltedCard.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
 
-
-./app/page.tsx:4:1
-Module not found: Can't resolve 'express'
-  2 | import Box from './components/box';
-  3 | /* import TiltedCard from './components/TiltedCard'; */
-> 4 | import express, { Request, Response } from 'express';
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  Client Component SSR:
+    ./app/components/TiltedCard.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:32:29.510] Server  LOG     ✓ Compiled in 72ms
+[00:39:13.932] Server  ERROR   ⨯ ReferenceError: motion is not defined
+[00:39:14.146] Server  ERROR   ⨯ ReferenceError: motion is not defined
+[00:39:14.397] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:39:14.430] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:39:15.279] Browser ERROR   uncaughtError: ReferenceError: motion is not defined
+[00:39:15.280] Browser ERROR   uncaughtError: ReferenceError: motion is not defined
+[00:39:26.976] Server  LOG     ✓ Compiled in 184ms
+[00:39:27.278] Browser ERROR   ./app/page.tsx:2:1
+Export default doesn't exist in target module
+  1 | "use client";
+> 2 | import TiltedCard from './components/TiltedCard';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import ProductSection from './components/ProductSection';
+  4 | /* import express, { Request, Response } from 'express';
   5 | import cors from 'cors';
-  6 |
-  7 | // --- TypeScript-type for utstyr ---
 
-
-
-Import traces:
-  Client Component Browser:
-    ./app/page.tsx [Client Component Browser]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/page.tsx [Client Component SSR]
-    ./app/page.tsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:00:03.697] Browser ERROR   uncaughtError: Error: ./app/page.tsx:5:1
-Module not found: Can't resolve 'cors'
-  3 | /* import TiltedCard from './components/TiltedCard'; */
-  4 | import express, { Request, Response } from 'express';
-> 5 | import cors from 'cors';
-    | ^^^^^^^^^^^^^^^^^^^^^^^^
-  6 |
-  7 | // --- TypeScript-type for utstyr ---
-  8 | type Utstyr = {
-
-
+The export default was not found in module [project]/app/components/TiltedCard.tsx [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
 
 Import traces:
   Client Component Browser:
@@ -68,39 +84,18 @@ Import traces:
   Client Component SSR:
     ./app/page.tsx [Client Component SSR]
     ./app/page.tsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:00:03.886] Browser ERROR   ./app/page.tsx:5:1
-Module not found: Can't resolve 'cors'
-  3 | /* import TiltedCard from './components/TiltedCard'; */
-  4 | import express, { Request, Response } from 'express';
-> 5 | import cors from 'cors';
-    | ^^^^^^^^^^^^^^^^^^^^^^^^
-  6 |
-  7 | // --- TypeScript-type for utstyr ---
-  8 | type Utstyr = {
-
-Import traces:
-  Client Component Browser:
-    ./app/page.tsx [Client Component Browser]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/page.tsx [Client Component SSR]
-    ./app/page.tsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-[00:00:03.886] Browser ERROR   ./app/page.tsx:4:1
-Module not found: Can't resolve 'express'
-  2 | import Box from './components/box';
-  3 | /* import TiltedCard from './components/TiltedCard'; */
-> 4 | import express, { Request, Response } from 'express';
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[00:39:27.278] Browser ERROR   ./app/page.tsx:2:1
+Export default doesn't exist in target module
+  1 | "use client";
+> 2 | import TiltedCard from './components/TiltedCard';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import ProductSection from './components/ProductSection';
+  4 | /* import express, { Request, Response } from 'express';
   5 | import cors from 'cors';
-  6 |
-  7 | // --- TypeScript-type for utstyr ---
+
+The export default was not found in module [project]/app/components/TiltedCard.tsx [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
 
 Import traces:
   Client Component Browser:
@@ -110,37 +105,18 @@ Import traces:
   Client Component SSR:
     ./app/page.tsx [Client Component SSR]
     ./app/page.tsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-[00:00:03.886] Browser ERROR   ./app/page.tsx:5:1
-Module not found: Can't resolve 'cors'
-  3 | /* import TiltedCard from './components/TiltedCard'; */
-  4 | import express, { Request, Response } from 'express';
-> 5 | import cors from 'cors';
-    | ^^^^^^^^^^^^^^^^^^^^^^^^
-  6 |
-  7 | // --- TypeScript-type for utstyr ---
-  8 | type Utstyr = {
-
-Import traces:
-  Client Component Browser:
-    ./app/page.tsx [Client Component Browser]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/page.tsx [Client Component SSR]
-    ./app/page.tsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-[00:00:03.886] Browser ERROR   ./app/page.tsx:4:1
-Module not found: Can't resolve 'express'
-  2 | import Box from './components/box';
-  3 | /* import TiltedCard from './components/TiltedCard'; */
-> 4 | import express, { Request, Response } from 'express';
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[00:39:27.279] Browser ERROR   ./app/page.tsx:2:1
+Export default doesn't exist in target module
+  1 | "use client";
+> 2 | import TiltedCard from './components/TiltedCard';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import ProductSection from './components/ProductSection';
+  4 | /* import express, { Request, Response } from 'express';
   5 | import cors from 'cors';
-  6 |
-  7 | // --- TypeScript-type for utstyr ---
+
+The export default was not found in module [project]/app/components/TiltedCard.tsx [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
 
 Import traces:
   Client Component Browser:
@@ -150,37 +126,18 @@ Import traces:
   Client Component SSR:
     ./app/page.tsx [Client Component SSR]
     ./app/page.tsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-[00:00:04.057] Browser ERROR   ./app/page.tsx:5:1
-Module not found: Can't resolve 'cors'
-  3 | /* import TiltedCard from './components/TiltedCard'; */
-  4 | import express, { Request, Response } from 'express';
-> 5 | import cors from 'cors';
-    | ^^^^^^^^^^^^^^^^^^^^^^^^
-  6 |
-  7 | // --- TypeScript-type for utstyr ---
-  8 | type Utstyr = {
-
-Import traces:
-  Client Component Browser:
-    ./app/page.tsx [Client Component Browser]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/page.tsx [Client Component SSR]
-    ./app/page.tsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-[00:00:04.057] Browser ERROR   ./app/page.tsx:4:1
-Module not found: Can't resolve 'express'
-  2 | import Box from './components/box';
-  3 | /* import TiltedCard from './components/TiltedCard'; */
-> 4 | import express, { Request, Response } from 'express';
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[00:39:27.279] Browser ERROR   ./app/page.tsx:2:1
+Export default doesn't exist in target module
+  1 | "use client";
+> 2 | import TiltedCard from './components/TiltedCard';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import ProductSection from './components/ProductSection';
+  4 | /* import express, { Request, Response } from 'express';
   5 | import cors from 'cors';
-  6 |
-  7 | // --- TypeScript-type for utstyr ---
+
+The export default was not found in module [project]/app/components/TiltedCard.tsx [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
 
 Import traces:
   Client Component Browser:
@@ -190,118 +147,12 @@ Import traces:
   Client Component SSR:
     ./app/page.tsx [Client Component SSR]
     ./app/page.tsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-[00:00:45.044] Server  LOG     ✓ Compiled in 341ms
-[00:00:45.235] Server  ERROR   ⨯ ReferenceError: TiltedCard is not defined
-[00:00:45.366] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:45.482] Browser ERROR   uncaughtError: ReferenceError: TiltedCard is not defined
-[00:00:54.228] Server  LOG     ✓ Compiled in 457ms
-[00:00:54.272] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:00:54.400] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[53:27:50.829] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[53:27:50.887] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[53:47:16.425] Server  LOG     ✓ Compiled in 134ms
-[53:47:45.282] Server  LOG     ✓ Compiled in 43ms
-[53:54:29.106] Server  LOG     ✓ Compiled in 286ms
-[53:56:31.039] Server  LOG     ✓ Compiled in 127ms
-[53:56:31.480] Server  ERROR   ⨯ ReferenceError: rotateX is not defined
-[53:56:31.640] Server  ERROR   ⨯ ReferenceError: rotateX is not defined
-[53:56:31.787] Server  ERROR   ⨯ ReferenceError: rotateX is not defined
-[53:56:32.123] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[53:56:32.153] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[53:56:32.483] Browser ERROR   uncaughtError: ReferenceError: rotateX is not defined
-[53:56:32.483] Browser ERROR   uncaughtError: ReferenceError: rotateX is not defined
-[53:56:57.711] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[53:56:57.712] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./app/components/TiltedCard.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[53:56:57.712] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[53:56:57.712] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[53:56:57.713] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./app/components/TiltedCard.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[53:56:57.713] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[53:56:57.782] Server  LOG     ✓ Compiled in 47ms
-[53:56:57.994] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[53:56:58.003] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[53:59:02.965] Server  LOG     ✓ Compiled in 100ms
-[53:59:24.119] Server  LOG     ✓ Compiled in 45ms
-[54:00:59.235] Server  LOG     ✓ Compiled in 98ms
-[54:01:37.842] Server  LOG     ✓ Compiled in 92ms
-[54:01:38.156] Browser ERROR   ./app/page.tsx:104:1
-Ecmascript file had an error
-  102 | }); */
-  103 |
-> 104 | "use client";
-      | ^^^^^^^^^^^^^
-  105 | import TiltedCard from './components/TiltedCard';
-  106 |
-  107 | export default function Home() {
-
-The "use client" directive must be placed before other expressions. Move it to the top of the file to resolve this issue.
-
-Import traces:
-  Client Component Browser:
-    ./app/page.tsx [Client Component Browser]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/page.tsx [Client Component SSR]
-    ./app/page.tsx [Server Component]
-[54:01:38.156] Browser ERROR   ./app/page.tsx:105:8
-Ecmascript file had an error
-  103 |
-  104 | "use client";
-> 105 | import TiltedCard from './components/TiltedCard';
-      |        ^^^^^^^^^^
-  106 |
-  107 | export default function Home() {
-  108 |   return (
-
-the name `TiltedCard` is defined multiple times
-
-Import traces:
-  Client Component Browser:
-    ./app/page.tsx [Client Component Browser]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/page.tsx [Client Component SSR]
-    ./app/page.tsx [Server Component]
-[54:01:38.482] Browser ERROR   ./app/page.tsx:104:1
-Ecmascript file had an error
-  102 | }); */
-  103 |
-> 104 | "use client";
-      | ^^^^^^^^^^^^^
-  105 | import TiltedCard from './components/TiltedCard';
-  106 |
-  107 | export default function Home() {
-
-The "use client" directive must be placed before other expressions. Move it to the top of the file to resolve this issue.
-
-Import traces:
-  Client Component Browser:
-    ./app/page.tsx [Client Component Browser]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/page.tsx [Client Component SSR]
-    ./app/page.tsx [Server Component]
-[54:01:38.482] Browser ERROR   ./app/page.tsx:105:8
-Ecmascript file had an error
-  103 |
-  104 | "use client";
-> 105 | import TiltedCard from './components/TiltedCard';
-      |        ^^^^^^^^^^
-  106 |
-  107 | export default function Home() {
-  108 |   return (
-
-the name `TiltedCard` is defined multiple times
-
-Import traces:
-  Client Component Browser:
-    ./app/page.tsx [Client Component Browser]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/page.tsx [Client Component SSR]
-    ./app/page.tsx [Server Component]
+[00:39:34.063] Server  LOG     ✓ Compiled in 73ms
+[00:39:34.235] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:39:34.235] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./app/components/TiltedCard.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:39:34.235] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:39:34.304] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:39:34.304] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./app/components/TiltedCard.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:39:34.305] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:39:34.688] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:39:34.743] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold

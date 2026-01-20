@@ -1,6 +1,6 @@
 "use client";
-import Box from './components/box';
 import TiltedCard from './components/TiltedCard';
+import ProductSection from './components/ProductSection';
 /* import express, { Request, Response } from 'express';
 import cors from 'cors';
 
@@ -101,7 +101,7 @@ app.listen(port, () => {
   console.log(`API listening at http://localhost:${port}`);
 }); */
 
-export default function Home() {
+/*export default function Home() {
   return (
     <div className="w-dvw h-dvh flex items-center justify-center">
       <Box />
@@ -115,5 +115,52 @@ export default function Home() {
         scaleOnHover={1.05}
       />
     </div>
+  );
+} */
+
+export default function Home() {
+  return (
+    <main className="min-h-screen px-6 py-16 space-y-24">
+
+      {/* PRODUKT GRID */}
+      <section>
+        <h2 className="text-3xl font-bold mb-10 text-center">
+          Våre produkter
+        </h2>
+
+        <div
+          className="
+            grid
+            grid-cols-1
+            sm:grid-cols-2
+            lg:grid-cols-3
+            gap-10
+            place-items-center
+          "
+        >
+          <TiltedCard
+            imageSrc="/last ned.jpeg"
+            infoText="Gaming-mus"
+            description="Presis og ergonomisk gaming-mus med høy DPI."
+            available={true}
+          />
+
+
+          <TiltedCard
+            imageSrc="/keyboard.jpg"
+            infoText="Mekanisk tastatur"
+          />
+
+          <TiltedCard
+            imageSrc="/headset.jpg"
+            infoText="Headset"
+          />
+        </div>
+      </section>
+
+      {/* PRODUKT DETALJER */}
+      <ProductSection />
+
+    </main>
   );
 }
