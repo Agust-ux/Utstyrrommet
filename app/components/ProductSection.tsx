@@ -8,7 +8,7 @@ export default function ProductSection() {
       
       {/* Bilde */}
       <img
-        src="/last ned.jpeg"
+        src="/mus.jpeg"
         alt="Gaming mus"
         className="rounded-2xl shadow-lg"
       />

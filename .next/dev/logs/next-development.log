@@ -1,158 +1,45 @@
-[00:00:00.954] Server  LOG     ✓ Ready in 691ms
-[00:00:01.713] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:04.742] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:28.001] Server  LOG     ✓ Compiled in 387ms
-[00:00:43.141] Server  LOG     ✓ Compiled in 71ms
-[00:00:46.599] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:06:48.763] Server  LOG     ✓ Compiled in 99ms
-[00:06:52.350] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:13:08.543] Server  LOG     ✓ Compiled in 97ms
-[00:15:41.592] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:28:15.218] Server  LOG     ✓ Compiled in 111ms
-[00:28:36.120] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:32:01.685] Server  LOG     ✓ Compiled in 180ms
-[00:32:02.287] Browser ERROR   ./app/components/TiltedCard.tsx:44:5
-Parsing ecmascript source code failed
-  42 |   return (
-  43 |   <div
-> 44 |     <div
-     |     ^
-  45 |       ref={ref}
-  46 |       onMouseMove={handleMouseMove}
-  47 |       onMouseEnter={() => scale.set(scaleOnHover)}
-
-Expression expected
-
-Import traces:
-  Client Component Browser:
-    ./app/components/TiltedCard.tsx [Client Component Browser]
-    ./app/page.tsx [Client Component Browser]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/components/TiltedCard.tsx [Client Component SSR]
-    ./app/page.tsx [Client Component SSR]
-    ./app/page.tsx [Server Component]
-[00:32:02.290] Browser ERROR   ./app/components/TiltedCard.tsx:44:5
-Parsing ecmascript source code failed
-  42 |   return (
-  43 |   <div
-> 44 |     <div
-     |     ^
-  45 |       ref={ref}
-  46 |       onMouseMove={handleMouseMove}
-  47 |       onMouseEnter={() => scale.set(scaleOnHover)}
-
-Expression expected
-
-Import traces:
-  Client Component Browser:
-    ./app/components/TiltedCard.tsx [Client Component Browser]
-    ./app/page.tsx [Client Component Browser]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/components/TiltedCard.tsx [Client Component SSR]
-    ./app/page.tsx [Client Component SSR]
-    ./app/page.tsx [Server Component]
-[00:32:29.510] Server  LOG     ✓ Compiled in 72ms
-[00:39:13.932] Server  ERROR   ⨯ ReferenceError: motion is not defined
-[00:39:14.146] Server  ERROR   ⨯ ReferenceError: motion is not defined
-[00:39:14.397] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:39:14.430] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:39:15.279] Browser ERROR   uncaughtError: ReferenceError: motion is not defined
-[00:39:15.280] Browser ERROR   uncaughtError: ReferenceError: motion is not defined
-[00:39:26.976] Server  LOG     ✓ Compiled in 184ms
-[00:39:27.278] Browser ERROR   ./app/page.tsx:2:1
-Export default doesn't exist in target module
-  1 | "use client";
-> 2 | import TiltedCard from './components/TiltedCard';
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  3 | import ProductSection from './components/ProductSection';
-  4 | /* import express, { Request, Response } from 'express';
-  5 | import cors from 'cors';
-
-The export default was not found in module [project]/app/components/TiltedCard.tsx [app-client] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./app/page.tsx [Client Component Browser]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/page.tsx [Client Component SSR]
-    ./app/page.tsx [Server Component]
-[00:39:27.278] Browser ERROR   ./app/page.tsx:2:1
-Export default doesn't exist in target module
-  1 | "use client";
-> 2 | import TiltedCard from './components/TiltedCard';
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  3 | import ProductSection from './components/ProductSection';
-  4 | /* import express, { Request, Response } from 'express';
-  5 | import cors from 'cors';
-
-The export default was not found in module [project]/app/components/TiltedCard.tsx [app-ssr] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./app/page.tsx [Client Component Browser]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/page.tsx [Client Component SSR]
-    ./app/page.tsx [Server Component]
-[00:39:27.279] Browser ERROR   ./app/page.tsx:2:1
-Export default doesn't exist in target module
-  1 | "use client";
-> 2 | import TiltedCard from './components/TiltedCard';
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  3 | import ProductSection from './components/ProductSection';
-  4 | /* import express, { Request, Response } from 'express';
-  5 | import cors from 'cors';
-
-The export default was not found in module [project]/app/components/TiltedCard.tsx [app-client] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./app/page.tsx [Client Component Browser]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/page.tsx [Client Component SSR]
-    ./app/page.tsx [Server Component]
-[00:39:27.279] Browser ERROR   ./app/page.tsx:2:1
-Export default doesn't exist in target module
-  1 | "use client";
-> 2 | import TiltedCard from './components/TiltedCard';
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  3 | import ProductSection from './components/ProductSection';
-  4 | /* import express, { Request, Response } from 'express';
-  5 | import cors from 'cors';
-
-The export default was not found in module [project]/app/components/TiltedCard.tsx [app-ssr] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./app/page.tsx [Client Component Browser]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/page.tsx [Client Component SSR]
-    ./app/page.tsx [Server Component]
-[00:39:34.063] Server  LOG     ✓ Compiled in 73ms
-[00:39:34.235] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:39:34.235] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./app/components/TiltedCard.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:39:34.235] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:39:34.304] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:39:34.304] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./app/components/TiltedCard.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:39:34.305] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:39:34.688] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:39:34.743] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:00.854] Server  LOG     ✓ Ready in 612ms
+[00:00:07.151] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:07.841] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:15.835] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:57.325] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:14:26.877] Server  LOG     ✓ Compiled in 283ms
+[00:16:07.362] Server  LOG     ✓ Compiled in 262ms
+[00:16:32.417] Server  ERROR   Invalid DOM property `stroke-linecap`. Did you mean `strokeLinecap`?
+[00:16:32.417] Server  ERROR   Invalid DOM property `stroke-linejoin`. Did you mean `strokeLinejoin`?
+[00:16:32.417] Server  ERROR   Invalid DOM property `stroke-width`. Did you mean `strokeWidth`?
+[00:16:32.851] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linecap strokeLinecap
+[00:16:32.852] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linejoin strokeLinejoin
+[00:16:32.852] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-width strokeWidth
+[00:16:36.029] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:16:36.146] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linecap strokeLinecap
+[00:16:36.146] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linejoin strokeLinejoin
+[00:16:36.146] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-width strokeWidth
+[00:16:43.019] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:16:43.132] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linecap strokeLinecap
+[00:16:43.132] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linejoin strokeLinejoin
+[00:16:43.132] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-width strokeWidth
+[00:17:40.486] Server  LOG     ✓ Compiled in 82ms
+[00:17:46.580] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:17:46.580] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linejoin strokeLinejoin
+[00:17:46.580] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-width strokeWidth
+[00:18:05.837] Server  LOG     ✓ Compiled in 38ms
+[00:18:06.092] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? strokeLineJoin strokeLinejoin
+[00:24:00.939] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:24:00.939] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-width strokeWidth
+[00:24:07.356] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:24:07.462] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-width strokeWidth
+[00:24:21.882] Server  LOG     ✓ Compiled in 95ms
+[00:25:30.836] Server  LOG     ✓ Compiled in 109ms
+[00:26:25.173] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:26:59.930] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:27:19.994] Server  LOG     ✓ Compiled in 43ms
+[00:27:23.723] Server  LOG     ✓ Compiled in 30ms
+[00:27:29.439] Server  LOG     ✓ Compiled in 27ms
+[00:27:38.487] Server  LOG     ✓ Compiled in 30ms
+[00:27:40.968] Server  LOG     ✓ Compiled in 41ms
+[00:27:43.430] Server  LOG     ✓ Compiled in 16ms
+[00:27:47.205] Server  LOG     ✓ Compiled in 28ms
+[00:27:54.428] Server  LOG     ✓ Compiled in 26ms
+[00:27:57.117] Server  LOG     ✓ Compiled in 40ms
+[00:30:08.284] Server  LOG     ✓ Compiled in 41ms
