@@ -3,7 +3,7 @@
 // Gjenbrukbar Section-komponent
 function Section({ children }: { children: React.ReactNode }) {
   return (
-    <div style={{ padding: '10px', maxWidth: '800px', margin: '20px auto 0 auto' }}>
+    <div style={{ padding: '10px', maxWidth: '800px', margin: '10px auto 0 auto' }}>
       {children}
     </div>
   );
@@ -18,7 +18,7 @@ function Heading({
   className?: string;
 }) {
   return (
-    <h1 className={`text-3xl font-bold mb-5 mt-5 ${className}`}>
+    <h1 className={`font-bold mb-5 mt-5 text-3xl ${className}`}>
       {children}
     </h1>
   );
@@ -28,29 +28,34 @@ function MyComponent() {
   return (
     <>
       <Section>
-        <Heading className="pt-5">Personvernserklæring for Utstyrssystem</Heading>
+        <Heading className="pt-5 !text-4xl">Personvernserklæring for Utstyrssystem</Heading>
+        <hr className="mb-10 border-1" />
         <p className="mb-4">
-          <b>Sist oppdatert:</b> [dd.mm.2026]
+          <b>Sist oppdatert:</b> dd.mm.2026
         </p>
         <p className="mb-5">
           Denne personvernserklæringen forklarer hvordan vi samler inn, bruker, 
           deler og beskytter personopplysninger i forbindelse med ditt bruk av 
-          vårt utstyrssystem for skolebruk. Ved å bruke Tjenesten godtar du 
+          vårt utstyrssystem for skolebruk. Ved å bruke Utstyrssystemet godtar du 
           behandlingen av dine personopplysninger som beskrevet her.
         </p>
       </Section>
 
       <Section>
         <Heading>1. Hvem er behandlingsansvarlig?</Heading>
-        <p>Behandlingsansvarlig for personopplysninger som behandles i forbindelse med denne Tjenesten er:</p>
-        <p>[Skolens navn / Organisasjonens navn]</p>
-        <p>Adresse: [Skolens adresse]</p>
-        <p>E-post: [kontakt@skole.no]</p>
+        <p className="mb-5">Behandlingsansvarlig for personopplysninger som behandles i forbindelse med Utstyrssystemet er:</p>
+        <b>Oslo kommune, Utdanningsetaten</b>
+        <p className="mt-3"> 
+          <b>Adresse:</b> Grensesvingen 6, 0663 Oslo 
+        </p>
+        <p className="mt-3"> 
+          <b>E-post:</b> postmottak@osloskolen.no
+        </p>
       </Section>
 
       <Section>
         <Heading>2. Hvilke personopplysninger samler vi inn?</Heading>
-        <p className="mb-5">Vi samler kun inn det som er nødvendig for at Tjenesten skal fungere som tiltenkt og for å oppfylle formålene nedenfor. Dette kan inkludere:</p>
+        <p className="mb-5">Vi samler kun inn det som er nødvendig for at Utstyrssystemet skal fungere som tiltenkt og for å oppfylle formålene nedenfor. Dette kan inkludere:</p>
       
         <b>Når du registrerer bruker:</b>
         <ul className="list-disc list-inside mb-5"> 
@@ -71,9 +76,9 @@ function MyComponent() {
         <b>Tekniske data:</b>
         <ul className="list-disc list-inside mb-5"> 
           <li>IP-adresse og nettlesertype</li>
-          <li>Loggdata om bruk av Tjenesten</li>
+          <li>Loggdata om bruk av Utstyrssystemet</li>
         </ul>
-        <p>Denne opplysningene samles inn når du aktivt oppgir dem, eller når du bruker Tjenesten.</p>
+        <p>Denne opplysningene samles inn når du aktivt oppgir dem, eller når du bruker Utstyrssystemet.</p>
       </Section>
 
       <Section>
@@ -83,8 +88,8 @@ function MyComponent() {
         <ul className="list-disc list-inside mb-5"> 
           <li>For å administrere brukerkontoer og godkjenne utlån av utstyr</li>
           <li>For å dokumentere hvem som har ansvar for utstyr når det lånes</li>
-          <li>For å sende deg varsler og kommunikasjon knyttet til bruk av Tjenesten</li>
-          <li>For å sikre Tjenestens sikkerhet og stabilitet</li>
+          <li>For å sende deg varsler og kommunikasjon knyttet til bruk av Utstyrssystemet</li>
+          <li>For å sikre Utstyrssystemets sikkerhet og stabilitet</li>
           <li>For å oppfylle lovpålagte krav</li>
         </ul>
         <p className="mb-5">Vi bruker ikke personopplysninger til markedsføring eller profilering uten samtykke.</p>
@@ -95,7 +100,7 @@ function MyComponent() {
         <p className="mb-5">Vi behandler dine personopplysninger kun når det er faktisk nødvendig og når vi har et gyldig rettslig grunnlag for det, eksempelvis:</p>
       
         <ul className="list-disc list-inside mb-5"> 
-          <li>For å oppfylle en avtale (brukervilkår for Tjenesten)</li>
+          <li>For å oppfylle en avtale (brukervilkår for Utstyrssystemet)</li>
           <li>For å etterleve en lovpålagt forpliktelse</li>
           <li>Med ditt uttrykkelige samtykke der det er nødvendig</li>
         </ul>
@@ -117,7 +122,7 @@ function MyComponent() {
         <p className="mb-5">Vi bruker informasjonskapsler («cookies») og lignende teknologier for å:</p>
       
         <ul className="list-disc list-inside mb-5"> 
-          <li>Sørge for at Tjenesten fungerer</li>
+          <li>Sørge for at Utstyrssystemet fungerer</li>
           <li>Forbedre brukeropplevelse</li>
           <li>Samle tekniske data om bruk</li>
         </ul>
@@ -149,17 +154,17 @@ function MyComponent() {
 
       <Section>
         <Heading>10. Endringer i personvernsærkleringen</Heading>
-        <p className="mb-5">Vi kan oppdatere denne personvernserklæringen for å reflektere endringer i lovverket, teknologi eller Tjenestens funksjoner. Den nyeste versjonen vil alltid være tilgjengelig via nettstedet.</p>
+        <p className="mb-5">Vi kan oppdatere denne personvernserklæringen for å reflektere endringer i lovverket, teknologi eller Utstyrssystemets funksjoner. Den nyeste versjonen vil alltid være tilgjengelig via nettstedet.</p>
       </Section>
 
       <Section>
         <Heading>11. Kontaktinformasjon</Heading>
         <p className="mb-5">Har du spørsmål om personvern, vår behandling av opplysninger eller denne erklæringen, kan du kontakte:</p>
-        <p className="mb-4">
-          Epost:<b> [kontakt@skole.no]</b>
+        <p>
+          <b>Epost:</b> postmottak.elvebakken.vgs@osloskolen.no
         </p>
-        <p className="mb-4">
-          Addresse:<b>[Skolens adresse]</b>
+        <p className="mt-3">
+          <b>Addresse:</b> Vestre Elvebakke 3, 0182
         </p>
       </Section>
       

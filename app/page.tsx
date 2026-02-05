@@ -27,7 +27,7 @@ export default function Home() {
             type="Mus"
             kvalitet="fungerer ikke"
             antall={6}
-            plassering="IM-labben"
+            plassering="IM-laben"
             tillegsutstyr="pclader"
           />
 

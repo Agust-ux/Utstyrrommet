@@ -396,7 +396,7 @@ function Home() {
                                 type: "Mus",
                                 kvalitet: "fungerer ikke",
                                 antall: 6,
-                                plassering: "IM-labben",
+                                plassering: "IM-laben",
                                 tillegsutstyr: "pclader"
                             }, void 0, false, {
                                 fileName: "[project]/app/page.tsx",

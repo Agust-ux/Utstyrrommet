@@ -15,7 +15,6 @@ export default function Header() {
           <button className="font-medium hover:underline">Button</button>
           <button className="font-medium hover:underline">Button</button>
           <button className="font-medium hover:underline">Button</button>
-          <button className="font-medium hover:underline">Button</button>
         </div>
 
         <AccountMenu />
