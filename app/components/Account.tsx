@@ -32,7 +32,7 @@ export default function AccountMenu() {
         onClick={() => setOpen(!open)}
         className="flex items-center gap-2 bg-black text-white px-4 py-2 rounded-full hover:bg-gray-800 transition"
       >
-        <User size={36} />
+        <User size={30} />
         <span className="text-xl font-large">Account</span>
         <ChevronDown size={26} />
       </button>

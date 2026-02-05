@@ -378,3 +378,121 @@ Import traces:
 [25:32:53.484] Server  LOG     ✓ Compiled in 24ms
 [25:33:02.374] Server  LOG     ✓ Compiled in 55ms
 [25:33:34.912] Server  LOG     ✓ Compiled in 36ms
+[25:52:23.318] Server  LOG     ✓ Compiled in 114ms
+[25:52:41.261] Server  LOG     ✓ Compiled in 54ms
+[25:52:49.343] Server  LOG     ✓ Compiled in 67ms
+[25:52:52.648] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[25:54:19.566] Server  LOG     ✓ Compiled in 55ms
+[25:55:45.573] Server  LOG     ✓ Compiled in 56ms
+[25:56:02.991] Server  LOG     ✓ Compiled in 25ms
+[25:56:29.215] Server  LOG     ✓ Compiled in 41ms
+[25:57:06.227] Server  LOG     ✓ Compiled in 37ms
+[25:57:11.096] Server  LOG     ✓ Compiled in 49ms
+[25:57:20.598] Server  LOG     ✓ Compiled in 27ms
+[25:58:10.030] Server  LOG     ✓ Compiled in 30ms
+[25:58:13.293] Server  LOG     ✓ Compiled in 18ms
+[25:58:26.626] Server  LOG     ✓ Compiled in 28ms
+[25:58:50.152] Server  LOG     ✓ Compiled in 44ms
+[25:58:58.513] Server  LOG     ✓ Compiled in 33ms
+[25:59:27.297] Server  LOG     ✓ Compiled in 37ms
+[25:59:38.953] Server  LOG     ✓ Compiled in 44ms
+[25:59:42.004] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[25:59:51.314] Server  LOG     ✓ Compiled in 47ms
+[26:00:52.733] Server  LOG     ✓ Compiled in 87ms
+[26:00:53.337] Browser ERROR   %s a style property during rerender (%s) when a conflicting property is set (%s) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values. Updating marginTop margin
+[26:00:53.337] Browser ERROR   %s a style property during rerender (%s) when a conflicting property is set (%s) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values. Updating marginTop margin
+[26:00:53.337] Browser ERROR   %s a style property during rerender (%s) when a conflicting property is set (%s) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values. Updating marginTop margin
+[26:00:53.338] Browser ERROR   %s a style property during rerender (%s) when a conflicting property is set (%s) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values. Updating marginTop margin
+[26:00:53.338] Browser ERROR   %s a style property during rerender (%s) when a conflicting property is set (%s) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values. Updating marginTop margin
+[26:00:53.338] Browser ERROR   %s a style property during rerender (%s) when a conflicting property is set (%s) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values. Updating marginTop margin
+[26:00:53.338] Browser ERROR   %s a style property during rerender (%s) when a conflicting property is set (%s) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values. Updating marginTop margin
+[26:00:53.338] Browser ERROR   %s a style property during rerender (%s) when a conflicting property is set (%s) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values. Updating marginTop margin
+[26:00:53.338] Browser ERROR   %s a style property during rerender (%s) when a conflicting property is set (%s) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values. Updating marginTop margin
+[26:00:53.338] Browser ERROR   %s a style property during rerender (%s) when a conflicting property is set (%s) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values. Updating marginTop margin
+[26:00:53.338] Browser ERROR   %s a style property during rerender (%s) when a conflicting property is set (%s) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values. Updating marginTop margin
+[26:00:53.338] Browser ERROR   %s a style property during rerender (%s) when a conflicting property is set (%s) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values. Updating marginTop margin
+[26:03:01.437] Server  LOG     ✓ Compiled in 70ms
+[26:03:09.641] Server  LOG     ✓ Compiled in 29ms
+[26:03:15.797] Server  LOG     ✓ Compiled in 17ms
+[26:03:40.178] Server  LOG     ✓ Compiled in 28ms
+[26:04:02.053] Server  LOG     ✓ Compiled in 28ms
+[26:04:07.437] Server  LOG     ✓ Compiled in 17ms
+[26:04:30.346] Server  LOG     ✓ Compiled in 22ms
+[26:04:45.736] Server  LOG     ✓ Compiled in 10ms
+[26:04:56.421] Server  LOG     ✓ Compiled in 15ms
+[26:05:03.284] Server  LOG     ✓ Compiled in 20ms
+[26:05:19.549] Server  LOG     ✓ Compiled in 58ms
+[26:05:19.651] Browser ERROR   ./app/personvern/page.tsx:90:21
+Parsing ecmascript source code failed
+  88 |           <li>For å oppfylle lovpålagte krav</li>
+  89 |         </ul>
+> 90 |         <p className=>Vi bruker ikke personopplysninger til markedsføring eller profilering uten samtykke.</p>
+     |                     ^^
+  91 |       </Section>
+  92 |
+  93 |       <Section>
+
+Expected '</', got '=>'
+
+Import traces:
+  Client Component Browser:
+    ./app/personvern/page.tsx [Client Component Browser]
+    ./app/personvern/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/personvern/page.tsx [Client Component SSR]
+    ./app/personvern/page.tsx [Server Component]
+[26:05:20.145] Browser ERROR   ./app/personvern/page.tsx:90:21
+Parsing ecmascript source code failed
+  88 |           <li>For å oppfylle lovpålagte krav</li>
+  89 |         </ul>
+> 90 |         <p className=>Vi bruker ikke personopplysninger til markedsføring eller profilering uten samtykke.</p>
+     |                     ^^
+  91 |       </Section>
+  92 |
+  93 |       <Section>
+
+Expected '</', got '=>'
+
+Import traces:
+  Client Component Browser:
+    ./app/personvern/page.tsx [Client Component Browser]
+    ./app/personvern/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/personvern/page.tsx [Client Component SSR]
+    ./app/personvern/page.tsx [Server Component]
+[26:05:20.145] Browser ERROR   ./app/personvern/page.tsx:90:21
+Parsing ecmascript source code failed
+  88 |           <li>For å oppfylle lovpålagte krav</li>
+  89 |         </ul>
+> 90 |         <p className=>Vi bruker ikke personopplysninger til markedsføring eller profilering uten samtykke.</p>
+     |                     ^^
+  91 |       </Section>
+  92 |
+  93 |       <Section>
+
+Expected '</', got '=>'
+
+Import traces:
+  Client Component Browser:
+    ./app/personvern/page.tsx [Client Component Browser]
+    ./app/personvern/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/personvern/page.tsx [Client Component SSR]
+    ./app/personvern/page.tsx [Server Component]
+[26:05:26.094] Server  LOG     ✓ Compiled in 22ms
+[26:05:30.141] Server  LOG     ✓ Compiled in 25ms
+[26:05:35.746] Server  LOG     ✓ Compiled in 10ms
+[26:05:50.126] Server  LOG     ✓ Compiled in 30ms
+[26:12:53.544] Server  LOG     ✓ Compiled in 123ms
+[26:13:32.508] Server  LOG     ✓ Compiled in 92ms
+[26:13:39.608] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[26:15:11.908] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[26:19:05.307] Server  LOG     ✓ Compiled in 166ms
+[26:19:09.897] Server  LOG     ✓ Compiled in 35ms
+[26:19:18.716] Server  LOG     ✓ Compiled in 23ms
+[26:19:23.075] Server  LOG     ✓ Compiled in 22ms
+[26:19:31.883] Server  LOG     ✓ Compiled in 35ms
+[26:23:08.724] Server  LOG     ✓ Compiled in 69ms

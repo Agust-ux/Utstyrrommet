@@ -3,16 +3,22 @@
 // Gjenbrukbar Section-komponent
 function Section({ children }: { children: React.ReactNode }) {
   return (
-    <div style={{ padding: '10px', maxWidth: '800px', margin: '0 auto' }}>
+    <div style={{ padding: '10px', maxWidth: '800px', margin: '20px auto 0 auto' }}>
       {children}
     </div>
   );
 }
 
 // Gjenbrukbar Heading-komponent
-function Heading({ children }: { children: React.ReactNode }) {
+function Heading({ 
+  children, 
+  className = "" 
+}: { 
+  children: React.ReactNode;
+  className?: string;
+}) {
   return (
-    <h1 className="text-3xl font-bold mb-5 mt-5">
+    <h1 className={`text-3xl font-bold mb-5 mt-5 ${className}`}>
       {children}
     </h1>
   );
@@ -22,11 +28,11 @@ function MyComponent() {
   return (
     <>
       <Section>
-        <Heading>Personvernserklæring for Utstyrssystem</Heading>
+        <Heading className="pt-5">Personvernserklæring for Utstyrssystem</Heading>
         <p className="mb-4">
           <b>Sist oppdatert:</b> [dd.mm.2026]
         </p>
-        <p className="mb-4">
+        <p className="mb-5">
           Denne personvernserklæringen forklarer hvordan vi samler inn, bruker, 
           deler og beskytter personopplysninger i forbindelse med ditt bruk av 
           vårt utstyrssystem for skolebruk. Ved å bruke Tjenesten godtar du 
