@@ -1,6 +1,7 @@
 'use client';
 import { useState, useRef, useEffect } from 'react';
 import { User, ChevronDown } from 'lucide-react';
+import { signOut } from 'next-auth/react';
 
 export default function AccountMenu() {
   const [open, setOpen] = useState(false);
@@ -16,6 +17,13 @@ export default function AccountMenu() {
     document.addEventListener('mousedown', handleClickOutside);
     return () => document.removeEventListener('mousedown', handleClickOutside);
   }, []);
+
+  const handleLogout = async () => {
+    await signOut({ 
+      callbackUrl: '/login', // Redirecter til login-siden
+      redirect: true 
+    });
+  };
 
   return (
     <div ref={ref} className="relative inline-block">
@@ -38,7 +46,10 @@ export default function AccountMenu() {
           <button className="w-full text-left px-4 py-2 text-sm hover:bg-gray-100">
             Innstillinger
           </button>
-          <button className="w-full text-left px-4 py-2 text-sm text-red-600 hover:bg-gray-100">
+          <button 
+            onClick={handleLogout}
+            className="w-full text-left px-4 py-2 text-sm text-red-600 hover:bg-gray-100"
+          >
             Logg ut
           </button>
         </div>

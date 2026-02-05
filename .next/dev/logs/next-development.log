@@ -1,45 +1,380 @@
-[00:00:00.854] Server  LOG     ✓ Ready in 612ms
-[00:00:07.151] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:07.841] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:15.835] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:57.325] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:14:26.877] Server  LOG     ✓ Compiled in 283ms
-[00:16:07.362] Server  LOG     ✓ Compiled in 262ms
-[00:16:32.417] Server  ERROR   Invalid DOM property `stroke-linecap`. Did you mean `strokeLinecap`?
-[00:16:32.417] Server  ERROR   Invalid DOM property `stroke-linejoin`. Did you mean `strokeLinejoin`?
-[00:16:32.417] Server  ERROR   Invalid DOM property `stroke-width`. Did you mean `strokeWidth`?
-[00:16:32.851] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linecap strokeLinecap
-[00:16:32.852] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linejoin strokeLinejoin
-[00:16:32.852] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-width strokeWidth
-[00:16:36.029] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:16:36.146] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linecap strokeLinecap
-[00:16:36.146] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linejoin strokeLinejoin
-[00:16:36.146] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-width strokeWidth
-[00:16:43.019] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:16:43.132] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linecap strokeLinecap
-[00:16:43.132] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linejoin strokeLinejoin
-[00:16:43.132] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-width strokeWidth
-[00:17:40.486] Server  LOG     ✓ Compiled in 82ms
-[00:17:46.580] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:17:46.580] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linejoin strokeLinejoin
-[00:17:46.580] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-width strokeWidth
-[00:18:05.837] Server  LOG     ✓ Compiled in 38ms
-[00:18:06.092] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? strokeLineJoin strokeLinejoin
-[00:24:00.939] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:24:00.939] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-width strokeWidth
-[00:24:07.356] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:24:07.462] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-width strokeWidth
-[00:24:21.882] Server  LOG     ✓ Compiled in 95ms
-[00:25:30.836] Server  LOG     ✓ Compiled in 109ms
-[00:26:25.173] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:26:59.930] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:27:19.994] Server  LOG     ✓ Compiled in 43ms
-[00:27:23.723] Server  LOG     ✓ Compiled in 30ms
-[00:27:29.439] Server  LOG     ✓ Compiled in 27ms
-[00:27:38.487] Server  LOG     ✓ Compiled in 30ms
-[00:27:40.968] Server  LOG     ✓ Compiled in 41ms
-[00:27:43.430] Server  LOG     ✓ Compiled in 16ms
-[00:27:47.205] Server  LOG     ✓ Compiled in 28ms
-[00:27:54.428] Server  LOG     ✓ Compiled in 26ms
-[00:27:57.117] Server  LOG     ✓ Compiled in 40ms
-[00:30:08.284] Server  LOG     ✓ Compiled in 41ms
+[00:00:01.054] Server  LOG     ✓ Ready in 808ms
+[00:00:02.705] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:06.106] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:17.496] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:58.544] Server  LOG     ✓ Compiled in 540ms
+[00:01:31.566] Server  ERROR   ⨯ ./app/personvern/page.tsx:2:1
+Module not found: Can't resolve './MyComponent.css'
+  1 | import React from 'react';
+> 2 | import './MyComponent.css'; // Optional: import your CSS file
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | function MyComponent() {
+  5 |   return (
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:31.598] Server  LOG     ✓ Compiled in 83ms
+[00:01:31.894] Browser ERROR   ./app/personvern/page.tsx:2:1
+Module not found: Can't resolve './MyComponent.css'
+  1 | import React from 'react';
+> 2 | import './MyComponent.css'; // Optional: import your CSS file
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | function MyComponent() {
+  5 |   return (
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:31.894] Browser ERROR   ./app/personvern/page.tsx:2:1
+Module not found: Can't resolve './MyComponent.css'
+  1 | import React from 'react';
+> 2 | import './MyComponent.css'; // Optional: import your CSS file
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | function MyComponent() {
+  5 |   return (
+
+https://nextjs.org/docs/messages/module-not-found
+[00:02:16.983] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./app/personvern/page.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:02:17.009] Server  LOG     ✓ Compiled in 0ms
+[00:02:17.130] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:03:46.811] Server  LOG     ✓ Compiled in 46ms
+[00:04:47.403] Server  LOG     ✓ Compiled in 41ms
+[00:06:17.687] Server  LOG     ✓ Compiled in 31ms
+[00:07:33.197] Server  LOG     ✓ Compiled in 37ms
+[00:07:46.832] Server  LOG     ✓ Compiled in 33ms
+[00:07:50.570] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:01.145] Server  LOG     ✓ Compiled in 41ms
+[00:08:45.656] Server  LOG     ✓ Compiled in 29ms
+[00:08:45.894] Browser ERROR   ./app/personvern/page.tsx:12:10
+Parsing ecmascript source code failed
+  10 |       <p>Denne personvernserklæringen forklarer hvordan vi samler inn, bruker, deler og beskytter personopplysninger i forbindelse med ditt bruk av vårt utstyrssystem for skolebruk. Ved å bruke Tjenesten godtar du behandlingen av dine personopplysninger som beskrevet her.</p>
+  11 |     </div>
+> 12 |     <div classname="innhold">
+     |          ^^^^^^^^^
+  13 |       <h1>1. Hvem er behandlingsansvarlig?</h1>
+  14 |       <p>Behandlingsansvarlig for personopplysninger som behandles i forbindelse med denne Tjenesten er:</p>
+  15 |       <p>[Skolens navn / Organisasjonens navn]</p>
+
+Expected ',', got 'classname'
+
+Import traces:
+  Client Component Browser:
+    ./app/personvern/page.tsx [Client Component Browser]
+    ./app/personvern/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/personvern/page.tsx [Client Component SSR]
+    ./app/personvern/page.tsx [Server Component]
+[00:08:45.895] Browser ERROR   ./app/personvern/page.tsx:12:10
+Parsing ecmascript source code failed
+  10 |       <p>Denne personvernserklæringen forklarer hvordan vi samler inn, bruker, deler og beskytter personopplysninger i forbindelse med ditt bruk av vårt utstyrssystem for skolebruk. Ved å bruke Tjenesten godtar du behandlingen av dine personopplysninger som beskrevet her.</p>
+  11 |     </div>
+> 12 |     <div classname="innhold">
+     |          ^^^^^^^^^
+  13 |       <h1>1. Hvem er behandlingsansvarlig?</h1>
+  14 |       <p>Behandlingsansvarlig for personopplysninger som behandles i forbindelse med denne Tjenesten er:</p>
+  15 |       <p>[Skolens navn / Organisasjonens navn]</p>
+
+Expected ',', got 'classname'
+
+Import traces:
+  Client Component Browser:
+    ./app/personvern/page.tsx [Client Component Browser]
+    ./app/personvern/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/personvern/page.tsx [Client Component SSR]
+    ./app/personvern/page.tsx [Server Component]
+[23:46:19.747] Server  LOG     ✓ Compiled in 100ms
+[23:47:59.015] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[23:48:04.055] Server  LOG     ✓ Compiled in 131ms
+[23:48:12.037] Server  LOG     ✓ Compiled in 23ms
+[23:48:18.753] Server  LOG     ✓ Compiled in 18ms
+[23:48:26.015] Server  LOG     ✓ Compiled in 17ms
+[23:48:31.944] Server  LOG     ✓ Compiled in 10ms
+[23:48:37.227] Server  LOG     ✓ Compiled in 104ms
+[23:48:56.145] Server  LOG     ✓ Compiled in 34ms
+[23:50:39.476] Server  LOG     ✓ Compiled in 34ms
+[23:51:09.098] Server  LOG     ✓ Compiled in 41ms
+[23:51:42.533] Server  LOG     ✓ Compiled in 38ms
+[23:53:14.720] Server  LOG     ✓ Compiled in 34ms
+[23:53:24.365] Server  LOG     ✓ Compiled in 39ms
+[23:56:02.331] Server  LOG     ✓ Compiled in 94ms
+[23:56:33.178] Server  LOG     ✓ Compiled in 29ms
+[23:56:33.585] Browser ERROR   uncaughtError: ReferenceError: margin is not defined
+[23:56:46.087] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[23:56:46.113] Server  LOG     ✓ Compiled in 32ms
+[23:56:46.377] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[23:56:51.729] Server  LOG     ✓ Compiled in 17ms
+[23:56:56.371] Server  LOG     ✓ Compiled in 25ms
+[23:57:01.850] Server  LOG     ✓ Compiled in 15ms
+[23:57:09.653] Server  LOG     ✓ Compiled in 15ms
+[23:57:26.813] Server  LOG     ✓ Compiled in 25ms
+[23:57:40.538] Server  LOG     ✓ Compiled in 21ms
+[23:59:56.340] Server  LOG     ✓ Compiled in 93ms
+[23:59:56.585] Browser ERROR   ./app/personvern/page.tsx:5:77
+Parsing ecmascript source code failed
+  3 | function MyComponent() {
+  4 |   return (
+> 5 |     <div className="overskrift" style={{ padding: '20px', maxWidth: '800px' justifyContent: 'center'' }}>
+    |                                                                             ^^^^^^^^^^^^^^
+  6 |       <h1 className="text-3xl font-bold mb-5">Personvernserklæring for Utstyrssystem</h1>
+  7 |       <p>
+  8 |         <b>Sist oppdatert:</b>[dd.mm.2026]
+
+Expected ',', got 'justifyContent'
+
+Import traces:
+  Client Component Browser:
+    ./app/personvern/page.tsx [Client Component Browser]
+    ./app/personvern/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/personvern/page.tsx [Client Component SSR]
+    ./app/personvern/page.tsx [Server Component]
+[23:59:56.585] Browser ERROR   ./app/personvern/page.tsx:5:77
+Parsing ecmascript source code failed
+  3 | function MyComponent() {
+  4 |   return (
+> 5 |     <div className="overskrift" style={{ padding: '20px', maxWidth: '800px' justifyContent: 'center'' }}>
+    |                                                                             ^^^^^^^^^^^^^^
+  6 |       <h1 className="text-3xl font-bold mb-5">Personvernserklæring for Utstyrssystem</h1>
+  7 |       <p>
+  8 |         <b>Sist oppdatert:</b>[dd.mm.2026]
+
+Expected ',', got 'justifyContent'
+
+Import traces:
+  Client Component Browser:
+    ./app/personvern/page.tsx [Client Component Browser]
+    ./app/personvern/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/personvern/page.tsx [Client Component SSR]
+    ./app/personvern/page.tsx [Server Component]
+[24:00:05.585] Browser ERROR   ./app/personvern/page.tsx:5:77
+Parsing ecmascript source code failed
+  3 | function MyComponent() {
+  4 |   return (
+> 5 |     <div className="overskrift" style={{ padding: '20px', maxWidth: '800px' justifyContent: 'center' }}>
+    |                                                                             ^^^^^^^^^^^^^^
+  6 |       <h1 className="text-3xl font-bold mb-5">Personvernserklæring for Utstyrssystem</h1>
+  7 |       <p>
+  8 |         <b>Sist oppdatert:</b>[dd.mm.2026]
+
+Expected ',', got 'justifyContent'
+
+Import traces:
+  Client Component Browser:
+    ./app/personvern/page.tsx [Client Component Browser]
+    ./app/personvern/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/personvern/page.tsx [Client Component SSR]
+    ./app/personvern/page.tsx [Server Component]
+[24:00:05.585] Browser ERROR   ./app/personvern/page.tsx:5:77
+Parsing ecmascript source code failed
+  3 | function MyComponent() {
+  4 |   return (
+> 5 |     <div className="overskrift" style={{ padding: '20px', maxWidth: '800px' justifyContent: 'center' }}>
+    |                                                                             ^^^^^^^^^^^^^^
+  6 |       <h1 className="text-3xl font-bold mb-5">Personvernserklæring for Utstyrssystem</h1>
+  7 |       <p>
+  8 |         <b>Sist oppdatert:</b>[dd.mm.2026]
+
+Expected ',', got 'justifyContent'
+
+Import traces:
+  Client Component Browser:
+    ./app/personvern/page.tsx [Client Component Browser]
+    ./app/personvern/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/personvern/page.tsx [Client Component SSR]
+    ./app/personvern/page.tsx [Server Component]
+[24:00:34.014] Server  LOG     ✓ Compiled in 49ms
+[24:01:33.005] Server  LOG     ✓ Compiled in 35ms
+[24:04:12.802] Server  LOG     ✓ Compiled in 70ms
+[24:04:13.061] Browser ERROR   ./app/personvern/page.tsx:2:43
+Parsing ecmascript source code failed
+  1 | 'use client';
+> 2 | const h1 = {"text-3xl font-bold mb-5 mt-5"};
+    |                                           ^
+  3 |
+  4 | function MyComponent() {
+  5 |   return (
+
+Expected a semicolon
+
+Import traces:
+  Client Component Browser:
+    ./app/personvern/page.tsx [Client Component Browser]
+    ./app/personvern/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/personvern/page.tsx [Client Component SSR]
+    ./app/personvern/page.tsx [Server Component]
+[24:04:13.586] Browser ERROR   ./app/personvern/page.tsx:2:43
+Parsing ecmascript source code failed
+  1 | 'use client';
+> 2 | const h1 = {"text-3xl font-bold mb-5 mt-5"};
+    |                                           ^
+  3 |
+  4 | function MyComponent() {
+  5 |   return (
+
+Expected a semicolon
+
+Import traces:
+  Client Component Browser:
+    ./app/personvern/page.tsx [Client Component Browser]
+    ./app/personvern/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/personvern/page.tsx [Client Component SSR]
+    ./app/personvern/page.tsx [Server Component]
+[24:04:37.585] Browser ERROR   ./app/personvern/page.tsx:2:53
+Parsing ecmascript source code failed
+  1 | 'use client';
+> 2 | const overskrifter = {"text-3xl font-bold mb-5 mt-5"};
+    |                                                     ^
+  3 |
+  4 | function MyComponent() {
+  5 |   return (
+
+Expected a semicolon
+
+Import traces:
+  Client Component Browser:
+    ./app/personvern/page.tsx [Client Component Browser]
+    ./app/personvern/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/personvern/page.tsx [Client Component SSR]
+    ./app/personvern/page.tsx [Server Component]
+[24:04:37.587] Browser ERROR   ./app/personvern/page.tsx:2:53
+Parsing ecmascript source code failed
+  1 | 'use client';
+> 2 | const overskrifter = {"text-3xl font-bold mb-5 mt-5"};
+    |                                                     ^
+  3 |
+  4 | function MyComponent() {
+  5 |   return (
+
+Expected a semicolon
+
+Import traces:
+  Client Component Browser:
+    ./app/personvern/page.tsx [Client Component Browser]
+    ./app/personvern/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/personvern/page.tsx [Client Component SSR]
+    ./app/personvern/page.tsx [Server Component]
+[24:08:00.334] Server  LOG     ✓ Compiled in 49ms
+[24:09:49.709] Server  LOG     ✓ Compiled in 40ms
+[24:10:16.136] Server  LOG     ✓ Compiled in 17ms
+[24:12:38.004] Server  LOG     ✓ Compiled in 110ms
+[24:12:51.086] Server  LOG     ✓ Compiled in 38ms
+[24:16:41.064] Server  LOG     ✓ Compiled in 84ms
+[24:17:11.164] Server  LOG     ✓ Compiled in 84ms
+[24:17:50.224] Server  LOG     ✓ Compiled in 32ms
+[24:18:00.125] Server  LOG     ✓ Compiled in 35ms
+[24:18:40.135] Server  LOG     ✓ Compiled in 32ms
+[24:18:54.926] Server  LOG     ✓ Compiled in 54ms
+[24:19:20.085] Server  LOG     ✓ Compiled in 39ms
+[24:19:23.008] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[24:19:31.204] Server  LOG     ✓ Compiled in 18ms
+[24:19:44.576] Server  LOG     ✓ Compiled in 31ms
+[24:19:49.316] Server  LOG     ✓ Compiled in 43ms
+[24:19:55.983] Server  LOG     ✓ Compiled in 26ms
+[24:20:33.991] Server  LOG     ✓ Compiled in 28ms
+[24:20:38.462] Server  LOG     ✓ Compiled in 32ms
+[24:20:43.095] Server  LOG     ✓ Compiled in 29ms
+[24:21:01.177] Server  LOG     ✓ Compiled in 20ms
+[24:21:04.483] Server  LOG     ✓ Compiled in 29ms
+[24:21:50.013] Server  LOG     ✓ Compiled in 32ms
+[24:22:32.018] Server  LOG     ✓ Compiled in 29ms
+[24:23:39.872] Server  LOG     ✓ Compiled in 26ms
+[24:26:14.644] Server  LOG     ✓ Compiled in 45ms
+[24:26:15.595] Browser ERROR   ./app/personvern/page.tsx:19:31
+Parsing ecmascript source code failed
+  17 |     <div>
+  18 |       <h1 className="text-3xl font-bold mb-5 mt-5">1. Hvem er behandlingsansvarlig?</h1>
+> 19 |       <p>Behandlingsansvarlig for personopplysninger som behandles i forbindelse med denne Tjenesten er:</p>
+     |                               ^^^
+  20 |       <p>[Skolens navn / Organisasjonens navn]</p>
+  21 |       <p>Adresse: [Skolens adresse]</p>
+  22 |       <p>E-post: [kontakt@skole.no]</p>
+
+Expected ',', got 'for'
+
+Import traces:
+  Client Component Browser:
+    ./app/personvern/page.tsx [Client Component Browser]
+    ./app/personvern/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/personvern/page.tsx [Client Component SSR]
+    ./app/personvern/page.tsx [Server Component]
+[24:26:15.597] Browser ERROR   ./app/personvern/page.tsx:19:31
+Parsing ecmascript source code failed
+  17 |     <div>
+  18 |       <h1 className="text-3xl font-bold mb-5 mt-5">1. Hvem er behandlingsansvarlig?</h1>
+> 19 |       <p>Behandlingsansvarlig for personopplysninger som behandles i forbindelse med denne Tjenesten er:</p>
+     |                               ^^^
+  20 |       <p>[Skolens navn / Organisasjonens navn]</p>
+  21 |       <p>Adresse: [Skolens adresse]</p>
+  22 |       <p>E-post: [kontakt@skole.no]</p>
+
+Expected ',', got 'for'
+
+Import traces:
+  Client Component Browser:
+    ./app/personvern/page.tsx [Client Component Browser]
+    ./app/personvern/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/personvern/page.tsx [Client Component SSR]
+    ./app/personvern/page.tsx [Server Component]
+[24:29:14.541] Server  LOG     ✓ Compiled in 138ms
+[24:31:33.354] Server  LOG     ✓ Compiled in 70ms
+[24:32:37.186] Server  LOG     ✓ Compiled in 31ms
+[24:33:07.013] Server  LOG     ✓ Compiled in 30ms
+[24:34:21.031] Server  LOG     ✓ Compiled in 30ms
+[24:34:36.521] Server  LOG     ✓ Compiled in 36ms
+[24:35:42.669] Server  LOG     ✓ Compiled in 37ms
+[24:36:08.240] Server  LOG     ✓ Compiled in 34ms
+[24:36:13.869] Server  LOG     ✓ Compiled in 36ms
+[24:36:38.132] Server  LOG     ✓ Compiled in 29ms
+[24:36:50.268] Server  LOG     ✓ Compiled in 22ms
+[24:37:00.925] Server  LOG     ✓ Compiled in 20ms
+[24:37:15.094] Server  LOG     ✓ Compiled in 18ms
+[24:42:31.204] Server  LOG     ✓ Compiled in 32ms
+[24:42:42.611] Server  LOG     ✓ Compiled in 16ms
+[24:42:45.317] Server  LOG     ✓ Compiled in 14ms
+[24:44:42.071] Server  LOG     ✓ Compiled in 35ms
+[25:04:10.153] Server  LOG     ✓ Compiled in 91ms
+[25:05:18.195] Server  LOG     ✓ Compiled in 46ms
+[25:08:52.163] Server  LOG     ✓ Compiled in 75ms
+[25:11:00.507] Server  LOG     ✓ Compiled in 34ms
+[25:11:36.868] Server  LOG     ✓ Compiled in 31ms
+[25:12:36.366] Server  LOG     ✓ Compiled in 36ms
+[25:13:39.403] Server  LOG     ✓ Compiled in 45ms
+[25:13:58.767] Server  LOG     ✓ Compiled in 28ms
+[25:22:19.074] Server  LOG     ✓ Compiled in 101ms
+[25:23:40.121] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[25:26:06.291] Server  LOG     ✓ Compiled in 172ms
+[25:27:27.857] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[25:27:30.755] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[25:29:13.814] Server  LOG     ✓ Compiled in 77ms
+[25:31:56.889] Server  LOG     ✓ Compiled in 115ms
+[25:32:13.335] Server  LOG     ✓ Compiled in 20ms
+[25:32:45.087] Server  LOG     ✓ Compiled in 23ms
+[25:32:53.484] Server  LOG     ✓ Compiled in 24ms
+[25:33:02.374] Server  LOG     ✓ Compiled in 55ms
+[25:33:34.912] Server  LOG     ✓ Compiled in 36ms

@@ -40,7 +40,7 @@ export default function LoginPage() {
         </button>
 
         <p className="mt-8 text-center text-xs text-gray-500">
-          Ved å logge inn godtar du våre vilkår og personvernregler
+          Ved å logge inn godtar du våre <a href="http://localhost:3000/personvern" className="underline">vilkår og personvernregler</a>
         </p>
       </div>
     </div>
