@@ -30,16 +30,16 @@ export default function AccountMenu() {
       {/* Button */}
       <button
         onClick={() => setOpen(!open)}
-        className="flex items-center gap-2 bg-black text-white px-4 py-2 rounded-full hover:bg-gray-800 transition"
+        className="flex items-center gap-2 px-4 py-2.5 bg-black text-white rounded-lg font-medium hover:bg-gray-800 transition cursor-pointer-on-hover"
       >
-        <User size={30} />
-        <span className="text-xl font-large">Account</span>
+        <User size={26} />
+        <span className="text-xl font-large">Profil</span>
         <ChevronDown size={26} />
       </button>
 
       {/* Dropdown */}
       {open && (
-        <div className="absolute right-0 mt-2 w-40 bg-white rounded-xl shadow-lg border overflow-hidden">
+        <div className="absolute right-0 mt-2 w-36 bg-white rounded-xl shadow-lg border overflow-hidden">
           <button className="w-full text-left px-4 py-2 text-sm hover:bg-gray-100">
             Profil
           </button>

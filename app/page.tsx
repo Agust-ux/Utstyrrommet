@@ -1,6 +1,7 @@
 "use client";
 import TiltedCard from './components/TiltedCard';
 import ProductSection from './components/ProductSection';
+import SpotlightCard from './components/SpotlightCard';
 
 export default function Home() {
   return (
@@ -22,6 +23,15 @@ export default function Home() {
             place-items-center
           "
         >
+
+  
+          <SpotlightCard className="custom-spotlight-card" spotlightColor="rgba(0, 229, 255, 0.2)"
+            type="Mus"
+            kvalitet="fungerer ikke"
+            plassering="IM-laben"
+            tillegsutstyr="pclader"
+          />
+
           <TiltedCard
             imageSrc="/mus.jpeg"
             type="Mus"
