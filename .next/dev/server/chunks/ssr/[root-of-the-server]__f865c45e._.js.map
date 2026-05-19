@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///Users/albertinemorkvikskjold/Documents/GitHub/Utstyrrommet/app/login/page.tsx"],"sourcesContent":["import { signIn } from \"next-auth/react\";\n\nexport default function LoginButton() {\n  return <button onClick={() => signIn(\"google\")}>Sign in with Google</button>;\n}\n"],"names":[],"mappings":";;;;;AAAA;;;AAEe,SAAS;IACtB,qBAAO,8OAAC;QAAO,SAAS,IAAM,IAAA,+IAAM,EAAC;kBAAW;;;;;;AAClD"}}]
+}

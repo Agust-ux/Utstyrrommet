@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 40, "column": 0}, "map": {"version":3,"sources":["file:///Users/albertinemorkvikskjold/Documents/GitHub/Utstyrrommet/app/api/auth/%5B...nextauth%5D/route.ts"],"sourcesContent":["import { NextAuth } from \"next-auth/next\";\nimport GoogleProvider from \"next-auth/providers/google\";\n\nconst handler = NextAuth({\n  providers: [\n    GoogleProvider({\n      clientId: process.env.GOOGLE_CLIENT_ID!,\n      clientSecret: process.env.GOOGLE_CLIENT_SECRET!,\n    }),\n  ],\n});\n\nexport { handler as GET, handler as POST };"],"names":[],"mappings":";;;;;;AAAA;AACA;AAAA;;;AAEA,MAAM,UAAU,IAAA,kJAAQ,EAAC;IACvB,WAAW;QACT,IAAA,kKAAc,EAAC;YACb,UAAU,QAAQ,GAAG,CAAC,gBAAgB;YACtC,cAAc,QAAQ,GAAG,CAAC,oBAAoB;QAChD;KACD;AACH"}}]
+}
