@@ -1,2 +1,22 @@
 [00:00:01.349] Server  LOG     ✓ Ready in 1060ms
 [00:00:05.065] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:26.994] Server  LOG     ✓ Compiled in 267ms
+[00:01:27.126] Browser ERROR   ./frontend/app/page.tsx:42:15
+Parsing ecmascript source code failed
+  40 |             infoText="Headset"
+  41 |           />
+> 42 |         </div>
+     |               ^
+> 43 |       </section>
+     | ^^^^^^^
+  44 |
+  45 |       {/* PRODUKT DETALJER */}
+  46 |       <ProductSection />
+
+Expected '</', got 'jsx text (
+      )'
+[00:01:34.271] Server  LOG     ✓ Compiled in 89ms
+[00:01:34.682] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:11.733] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:03:58.548] Server  LOG     ✓ Compiled in 127ms
+[00:04:28.697] Server  LOG     ✓ Compiled in 160ms

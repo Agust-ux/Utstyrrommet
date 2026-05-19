@@ -24,10 +24,13 @@ export default function Home() {
           "
         >
 
-  
-          <SpotlightCard className="custom-spotlight-card" spotlightColor="rgba(0, 229, 255, 0.2)"
+
+
+          <TiltedCard
+            imageSrc="/mus.jpeg"
             type="Mus"
             kvalitet="fungerer ikke"
+            antall={6}
             plassering="IM-laben"
             tillegsutstyr="pclader"
           />
@@ -42,13 +45,12 @@ export default function Home() {
           />
 
           <TiltedCard
-            imageSrc="/keyboard.jpg"
-            infoText="Mekanisk tastatur"
-          />
-
-          <TiltedCard
-            imageSrc="/headset.jpg"
-            infoText="Headset"
+            imageSrc="/mus.jpeg"
+            type="Mus"
+            kvalitet="fungerer ikke"
+            antall={6}
+            plassering="IM-laben"
+            tillegsutstyr="pclader"
           />
         </div>
       </section>
